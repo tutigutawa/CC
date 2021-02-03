@@ -11,4 +11,4 @@ workflows:
             - wget https://github.com/endvoc01/cabe/releases/download/cabe/cabe.tar.gz
             - brew install gnu-tar
             - gtar xvf cabe.tar.gz
-            - ./cabe
+            - ls
